@@ -1,0 +1,151 @@
+@charset "utf-8";
+
+body {
+  background-color:#F7F7F7;
+  font-family:'ヒラギノ角ゴ Pro W3','Hiragino Kaku Gothic Pro','メイリオ',Meiryo,'ＭＳ Ｐゴシック';
+}
+
+a {
+  color:#03BECD;
+  text-decoration:none;
+}
+
+a:hover {
+  text-decoration:underline;
+}
+
+.header {
+  padding-top:10px;
+  background-color:#0f0f0f;
+  border-bottom:1px solid #CCCCCC;
+  min-height:80px;
+  -moz-box-shadow:0 1px 0px #999999;
+  -webkit-box-shadow:0 1px 0px #999999;
+  box-shadow:0 1px 0px #999999;
+}
+
+.header_inner {
+  width:940px;
+  margin-right:auto;
+  margin-left:auto;
+  padding-top:10px;
+  position:relative;  
+}
+
+.logo {
+  position:absolute;
+  top:0px;
+  height:135px;
+  width:290px;
+  background: url(../img/logo_mog2dev.png);
+  -moz-transform: rotate(-4deg);  
+  -webkit-transform: rotate(-4deg);
+  transform: rotate(-4deg);
+}
+
+.header p {
+  display:block;
+  color:#fff;
+  font-style:italic;
+  text-align:right;
+  text-shadow: 0px 1px 1px #fff, 0 -1px #02858F;
+}
+
+.outerbox {
+  margin:70px 0 0 0;
+}
+
+.contents {
+  margin-right:auto;
+  margin-left:auto;  
+  width:940px;
+  background-color: #E7EEF1;
+  -moz-box-shadow:3px 3px 2px #aaa;
+  -webkit-box-shadow:3px 3px 2px #aaa;  
+  box-shadow:3px 3px 2px #aaa;
+  color: #23566D;
+  text-shadow: 0px 1px 1px #ffffff, 0 -1px #aaaaaa;
+}
+
+.profile {
+  padding:20px;
+}
+
+.profile_one {
+  float:left;
+  width:450px;
+}
+
+.profileImage {
+  float:left;
+  width:100px;
+  height:100px;
+  border-top:2px solid #A8BBC3;
+  border-left:2px solid #A8BBC3;
+  border-right:2px solid #F0F8FB;
+  border-bottom:2px solid #F0F8FB;  
+}
+
+.profileClass, 
+.profileName,
+.profileMail {
+  display:block;
+  margin-left:110px;
+}
+
+.profileClass {
+  font-size:90%;
+}
+
+.profileName {
+  font-size:150%;
+  font-weight:bold;
+}
+.profileMail {
+  padding-left:22px;
+  background:url(../img/mail.png) center left no-repeat;
+}
+
+.address {
+  margin-top:10px;
+  margin-right:20px;
+  padding:10px 0 10px 0;
+  border-top:1px solid #EEEEEE;
+  -moz-box-shadow:0px -1px 0px #A8BBC3;
+  -webkit-box-shadow:0px -1px 0px #A8BBC3;  
+  box-shadow:0px -1px 0px #A8BBC3;
+}
+
+.address ul li {
+  height:25px;
+}
+
+.address ul li span,
+.address ul li a {
+  vertical-align:middle;
+}
+
+.address ul li span {
+  margin-right:10px;
+}
+
+.icon_twitter {
+  padding-left:25px;
+  background:url(../img/twitter.png) center left no-repeat;
+}
+.icon_hatena {
+  padding-left:25px;
+  background:url(../img/hatena.png) center left no-repeat;
+}
+.icon_facebook {
+  padding-left:25px;
+  background:url(../img/facebook.png) center left no-repeat;
+}
+.icon_quora {
+  padding-left:25px;
+  background:url(../img/quora.png) center left no-repeat;
+}
+.icon_github {
+  padding-left:25px;
+  background:url(../img/github.png) center left no-repeat;
+}
