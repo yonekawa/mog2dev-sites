@@ -16,8 +16,10 @@ a:hover {
 
 .header {
   padding-top:10px;
-  background-color:#0f0f0f;
-  border-bottom:1px solid #CCCCCC;
+  background:#0f0f0f;
+  background: -moz-linear-gradient(top, #0f0f0f, #3f3f3f);
+  background: -webkit-gradient(linear, center top, center bottom, from(#0f0f0f), to(#3f3f3f));
+  border-bottom:1px solid #aaaaaa;
   min-height:80px;
   -moz-box-shadow:0 1px 0px #999999;
   -webkit-box-shadow:0 1px 0px #999999;
@@ -48,27 +50,27 @@ a:hover {
   color:#fff;
   font-style:italic;
   text-align:right;
-  text-shadow: 0px 1px 1px #fff, 0 -1px #02858F;
+  text-shadow: 0px 1px 1px #fff, 0 -1px #444444;
 }
 
 .outerbox {
-  margin:70px 0 0 0;
+  margin:70px 0 100px 0;
 }
 
 .contents {
   margin-right:auto;
   margin-left:auto;  
   width:940px;
-  background-color: #E7EEF1;
-  -moz-box-shadow:3px 3px 2px #aaa;
-  -webkit-box-shadow:3px 3px 2px #aaa;  
-  box-shadow:3px 3px 2px #aaa;
-  color: #23566D;
-  text-shadow: 0px 1px 1px #ffffff, 0 -1px #aaaaaa;
 }
 
 .profile {
   padding:20px;
+  background-color: #E7EEF1;
+  -moz-box-shadow:0px 3px 3px #999;
+  -webkit-box-shadow:0px 3px 3px #999;  
+  box-shadow:0px 3px 3px #999;
+  color: #23566D;
+  text-shadow: 0px 1px 1px #ffffff, 0 -1px #aaaaaa;
 }
 
 .profile_one {
@@ -103,7 +105,7 @@ a:hover {
 }
 .profileMail {
   padding-left:22px;
-  background:url(../img/mail.png) center left no-repeat;
+  background:url(../img/icon_mail.png) center left no-repeat;
 }
 
 .address {
@@ -131,21 +133,86 @@ a:hover {
 
 .icon_twitter {
   padding-left:25px;
-  background:url(../img/twitter.png) center left no-repeat;
+  background:url(../img/icon_twitter.png) center left no-repeat;
 }
 .icon_hatena {
   padding-left:25px;
-  background:url(../img/hatena.png) center left no-repeat;
+  background:url(../img/icon_hatena.png) center left no-repeat;
 }
 .icon_facebook {
   padding-left:25px;
-  background:url(../img/facebook.png) center left no-repeat;
+  background:url(../img/icon_facebook.png) center left no-repeat;
 }
 .icon_quora {
   padding-left:25px;
-  background:url(../img/quora.png) center left no-repeat;
+  background:url(../img/icon_quora.png) center left no-repeat;
 }
 .icon_github {
   padding-left:25px;
-  background:url(../img/github.png) center left no-repeat;
+  background:url(../img/icon_github.png) center left no-repeat;
+}
+
+.products {
+  margin-top:40px;
+}
+.products h2 {
+  margin-bottom:20px;
+  font-size:150%;
+  font-weight:bold;
+  color:#877A67;
+  text-shadow: 0px 1px 1px #ffffff, 0 -1px #aaaaaa;
+  border-bottom:1px dashed #716A4B;
+}
+
+.productDetail{
+  padding:0 20px;
+}
+.productDetail h3 {
+  font-weight:bold;
+  font-size:120%;
+  color:#465A69;
+}
+.productText {
+  margin-top:10px;
+  line-height:1.4em;
+  width:450px;
+  color:#333333;
+}
+
+a.appStoreDL {
+  margin-top:10px;
+  display:block;
+  width:140px;
+  height:48px;
+  background:url(../img/appStore.png) 0 0 no-repeat;
+}
+
+.mocoTime > .productIcon {
+  display:inline-block;
+  width:57px;
+  height:57px;
+  background:url(../img/icon_mocoTime.png) 0 0 no-repeat;
+  -moz-border-radius:7px;
+  -webkit-border-radius:7px;
+  border-radius:7px;
+  -moz-box-shadow:0px 1px 3px #666;
+  -webkit-box-shadow:0px 3px 3px #999;  
+  box-shadow:0px 3px 3px #999;
+}
+.mocoTime > h3 {
+  display:inline-block;
+  margin-left:10px;
+  vertical-align:top;
+}
+
+.mocoTime > iframe {
+  padding:8px;
+  background-color:#DED6CA;
+  border-top:2px solid #CDC7BD;
+  border-left:2px solid #CDC7BD;
+  border-right:1px solid #D6CFC3;
+  border-bottom:1px solid #D6CFC3;  
+  -moz-border-radius:6px;
+  -web-border-radius:6px;
+  border-radius:6px;
 }
