@@ -152,6 +152,7 @@ a:hover {
   background:url(../img/icon_github.png) center left no-repeat;
 }
 
+
 .products {
   margin-top:40px;
 }
@@ -165,7 +166,6 @@ a:hover {
 }
 
 .productDetail{
-  padding:0 20px;
 }
 .productDetail h3 {
   font-weight:bold;
@@ -175,7 +175,7 @@ a:hover {
 .productText {
   margin-top:10px;
   line-height:1.4em;
-  width:450px;
+  width:430px;
   color:#333333;
 }
 
@@ -215,4 +215,33 @@ a.appStoreDL {
   -moz-border-radius:6px;
   -web-border-radius:6px;
   border-radius:6px;
+  margin-right:25px;
+}
+
+
+.footer {
+/*  background: -moz-linear-gradient(top, #3f3f3f, #0f0f0f);
+  background: -webkit-gradient(linear, center top, center bottom, from(#3f3f3f), to(#0f0f0f));
+  border-top:1px solid #aaaaaa;
+  -moz-box-shadow:0 -1px 0px #999999;
+  -webkit-box-shadow:0 -1px 0px #999999;
+  box-shadow:0 -1px 0px #999999;*/
+}
+.footer_inner {
+  width:940px;
+  margin-right:auto;
+  margin-left:auto;
+  padding:10px 0px 10px 0;
+  position:relative;  
+  border-top:4px double #aaaaaa;
+}
+.fbTool {
+}
+.fbLike {
+  float:left;
+  padding-right:20px;
+}
+
+.fbComments {
+  float:left;
 }
