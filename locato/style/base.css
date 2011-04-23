@@ -1,0 +1,74 @@
+@charset "utf-8";
+
+body {
+  background-color:#F7F7F7;
+  font-family:'ヒラギノ角ゴ Pro W3','Hiragino Kaku Gothic Pro','メイリオ',Meiryo,'ＭＳ Ｐゴシック';
+}
+
+a {
+  color:#03BECD;
+  text-decoration:none;
+}
+
+a:hover {
+  text-decoration:underline;
+}
+
+.teamLogo {
+  display:block;
+  background:url("../img/mog2devLogo.png") right center no-repeat scroll transparent;
+  width:100px;
+  height:47px;
+  float:right;
+}
+
+
+.centerBox {
+  margin-right:auto;
+  margin-left:auto;
+  padding:5px 0px 50px 0px;
+  width:750px;
+  background-color:#DAE8E3;
+}
+
+.pageSubTitle {
+  padding:0 5px;
+  font-size:12px;
+  color:#aaaaaa;
+  display:block;
+  text-align:center;
+  text-shadow: 0px 1px 1px #cccccc, 0 -1px #aaaaaa;
+}
+
+.pageSubTitle > a {
+  color:#fff;
+}
+
+
+h1 {
+  margin:10px 0 15px 0;
+  height:110px;
+  background:url("../img/locatoLogo.png") center center no-repeat scroll #FFFFFF;
+  -moz-box-shadow:0 3px 5px #f0f0f0, 0 -3px 5px #f0f0f0;
+  -webkit-box-shadow:0 2px 5px #f0f0f0, 0 -2px 5px #f0f0f0;
+  box-shadow:0 2px 5px #f0f0f0, 0 -2px 5px #f0f0f0;
+  border-bottom:1px solid #F3F3F3;
+  border-top:1px solid #F3F3F3;  
+}
+
+.youtubeVideo {
+  padding:0 55px;
+  margin-right:auto;
+  margin-left:auto;
+}
+
+.productDetail {
+}
+  .productDetail p {
+    text-align:center;    
+    margin-bottom:15px;
+    line-height:1.5em;
+    color:#535353;
+    text-shadow: 0px 1px 1px #ffffff, 0 -1px #aaaaaa;
+    font-size:12px;
+  }
