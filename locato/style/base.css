@@ -72,3 +72,10 @@ h1 {
     text-shadow: 0px 1px 1px #ffffff, 0 -1px #aaaaaa;
     font-size:12px;
   }
+
+.credit {
+  margin-top:10px;
+  text-align:center; 
+  font-size:12px;
+  color:#999999;
+}
