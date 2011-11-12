@@ -899,7 +899,7 @@ diff -p -N -r -x '*.orig' ../emacs-23.1.95/src/nsterm.m src/nsterm.m
     bzero (dpyinfo, sizeof (struct ns_display_info));
 *************** ns_term_shutdown (int sig)
 *** 3910,3915 ****
---- 3913,3930 ----
+--- 3913,3932 ----
       NSLog (@"notification: '%@'", [notification name]);
   }
   
