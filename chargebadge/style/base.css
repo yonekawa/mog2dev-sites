@@ -1,0 +1,94 @@
+@charset "utf-8";
+
+body {
+  background-color:#e0e0e0;
+  font-family:'ヒラギノ角ゴ Pro W3','Hiragino Kaku Gothic Pro','メイリオ',Meiryo,'ＭＳ Ｐゴシック';
+}
+
+a {
+  color:#03BECD;
+  text-decoration:none;
+}
+
+a:hover {
+  text-decoration:underline;
+}
+
+.leftSide {
+  margin-left:auto;
+  margin-right:auto;
+  margin-top:5px;
+  margin-bottom:50px;
+  padding-bottom:5px;
+  width:801px;
+  background-color:#F7F7F7;    
+  -moz-border-radius:20px;
+  -webkit-border-radius:20px;
+  border-radius: 20px;
+  
+}
+
+/* header */
+.header {
+  position:relative;
+  height:275px;
+  width:800px;
+  background: url(../img/headerImage.jpg) no-repeat 0 -80px;
+}
+.appTitle {
+  padding-left:60px;
+  position:absolute;
+  top:40px;
+  left:-40px;
+  height:50px;
+  width:400px;
+  background-color:#ffffff;
+  -moz-border-radius:30px;
+  -webkit-border-radius:30px;
+  border-radius: 30px;
+}
+  .appTitle span {
+    font-size:200%;
+    font-weight:bold;
+  }
+
+.appIcon {
+  width:146px;
+  height:146px;
+  position:absolute;
+  background: url(../img/appIcon.png) no-repeat 0 0;  
+  left:680px;
+  bottom:-30px;
+}
+
+/* mainContents */
+.mainContents {
+  padding:30px 10px 100px 30px;
+}
+
+.contentsText {
+  margin-bottom:20px;
+  font-size:90%;
+}
+
+.badges {
+  margin-bottom:20px;
+}
+  .badges span {
+    font-size:90%;
+    color:#999999;
+  }
+  .badges table td {
+    padding:10px;
+  }
+  .badges table td img {}
+  .badges table td.tableTextRight {
+    text-align:right;
+  }   
+  
+.credit {
+  margin-top:50px;
+  font-size:80%;
+  color:#666666;
+}
+  
