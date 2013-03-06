@@ -14,6 +14,19 @@ a:hover {
   text-decoration:underline;
 }
 
+.clearfix {
+  *zoom: 1;
+}
+.clearfix:before,
+.clearfix:after {
+  display: table;
+  line-height: 0;
+  content: "";
+}
+.clearfix:after {
+  clear: both;
+}
+
 .header {
   padding-top:10px;
   background:#0f0f0f;
@@ -31,7 +44,7 @@ a:hover {
   margin-right:auto;
   margin-left:auto;
   padding-top:10px;
-  position:relative;  
+  position:relative;
 }
 
 .logo {
@@ -40,7 +53,7 @@ a:hover {
   height:135px;
   width:290px;
   background: url(../img/logo_mog2dev.png);
-  -moz-transform: rotate(-4deg);  
+  -moz-transform: rotate(-4deg);
   -webkit-transform: rotate(-4deg);
   transform: rotate(-4deg);
 }
@@ -59,7 +72,7 @@ a:hover {
 
 .contents {
   margin-right:auto;
-  margin-left:auto;  
+  margin-left:auto;
   width:940px;
 }
 
@@ -67,7 +80,7 @@ a:hover {
   padding:20px;
   background-color: #E7EEF1;
   -moz-box-shadow:0px 3px 3px #999;
-  -webkit-box-shadow:0px 3px 3px #999;  
+  -webkit-box-shadow:0px 3px 3px #999;
   box-shadow:0px 3px 3px #999;
   color: #23566D;
   text-shadow: 0px 1px 1px #ffffff, 0 -1px #aaaaaa;
@@ -85,10 +98,10 @@ a:hover {
   border-top:2px solid #A8BBC3;
   border-left:2px solid #A8BBC3;
   border-right:2px solid #F0F8FB;
-  border-bottom:2px solid #F0F8FB;  
+  border-bottom:2px solid #F0F8FB;
 }
 
-.profileClass, 
+.profileClass,
 .profileName,
 .profileMail {
   display:block;
@@ -114,7 +127,7 @@ a:hover {
   padding:10px 0 10px 0;
   border-top:1px solid #EEEEEE;
   -moz-box-shadow:0px -1px 0px #A8BBC3;
-  -webkit-box-shadow:0px -1px 0px #A8BBC3;  
+  -webkit-box-shadow:0px -1px 0px #A8BBC3;
   box-shadow:0px -1px 0px #A8BBC3;
 }
 
@@ -166,6 +179,9 @@ a:hover {
 }
 
 .productDetail{
+  margin-bottom: 20px;
+  padding-bottom: 20px;
+  border-bottom: 2px dotted #E7EEF1;
 }
 .productDetail h3 {
   font-weight:bold;
@@ -187,7 +203,8 @@ a.appStoreDL {
   background:url(../img/appStore.png) 0 0 no-repeat;
 }
 
-.mocoTime > .productIcon {
+.mocoTime > .productIcon,
+.picThing > .productIcon {
   display:inline-block;
   width:57px;
   height:57px;
@@ -196,10 +213,18 @@ a.appStoreDL {
   -webkit-border-radius:7px;
   border-radius:7px;
   -moz-box-shadow:0px 1px 3px #666;
-  -webkit-box-shadow:0px 3px 3px #999;  
+  -webkit-box-shadow:0px 3px 3px #999;
   box-shadow:0px 3px 3px #999;
 }
-.mocoTime > h3 {
+.mocoTime > .productIcon {
+  background:url(../img/icon_mocoTime.png) 0 0 no-repeat;
+}
+.picThing > .productIcon {
+  background:url(../img/icon_picThing.png) 0 0 no-repeat;
+}
+
+.mocoTime > h3,
+.picThing > h3 {
   display:inline-block;
   margin-left:10px;
   vertical-align:top;
@@ -211,12 +236,21 @@ a.appStoreDL {
   border-top:2px solid #CDC7BD;
   border-left:2px solid #CDC7BD;
   border-right:1px solid #D6CFC3;
-  border-bottom:1px solid #D6CFC3;  
+  border-bottom:1px solid #D6CFC3;
   -moz-border-radius:6px;
   -web-border-radius:6px;
   border-radius:6px;
   margin-right:25px;
 }
+
+.picThing > .productImage {
+  float: right;
+}
+  .picThing > .productImage img {
+    margin-right: 20px;
+    width: 200px;
+    border: 1px solid #CCCCCC;
+  }
 
 
 .footer {
@@ -232,7 +266,7 @@ a.appStoreDL {
   margin-right:auto;
   margin-left:auto;
   padding:10px 0px 10px 0;
-  position:relative;  
+  position:relative;
   border-top:4px double #aaaaaa;
 }
 .fbTool {
